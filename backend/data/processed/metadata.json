@@ -1,0 +1,39 @@
+{
+  "source_dataset_id": "UCI_PhiUSIIL_Phishing_URL_Dataset (ID 967)",
+  "execution_timestamp": "2026-10-23T11:41:00.710789+00:00",
+  "random_seed": 42,
+  "max_urls_parameter": 25000,
+  "actual_urls_processed": 25000,
+  "cleaning_statistics": {
+    "raw_records_read": 235795,
+    "dropped_missing_values": 0,
+    "dropped_malformed_urls": 0,
+    "dropped_exact_duplicates": 900,
+    "dropped_label_conflicts": 1,
+    "retained_clean_records": 234894,
+    "total_unique_domain_groups": 175508
+  },
+  "splits": {
+    "train": {
+      "url_count": 17487,
+      "domain_group_count": 12302,
+      "phishing_count": 7412,
+      "legitimate_count": 10075,
+      "phishing_ratio": 0.4239
+    },
+    "val": {
+      "url_count": 3756,
+      "domain_group_count": 3259,
+      "phishing_count": 1663,
+      "legitimate_count": 2093,
+      "phishing_ratio": 0.4428
+    },
+    "test": {
+      "url_count": 3757,
+      "domain_group_count": 3235,
+      "phishing_count": 1690,
+      "legitimate_count": 2067,
+      "phishing_ratio": 0.4498
+    }
+  }
+}
